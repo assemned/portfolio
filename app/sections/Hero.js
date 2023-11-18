@@ -4,7 +4,7 @@ import { FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="w-full relative h-screen max-sm:hidden">
+      <div className="w-full relative h-screen max-sm:hidden overflow-hidden">
         <div className="h-full w-2/3 bg-black top-0 left-[50%] absolute -skew-x-6"></div>
         <img
           src="me.png"
